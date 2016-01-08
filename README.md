@@ -4,5 +4,4 @@ Run this command from the project's root
 <pre>
 mvn compile flyway:migrate -Dflyway.configFile=flyway-config.properties
 </pre>
-It will create a table an populate with 4 rows, the db configuration is in the flyway-config.properties file
-This approach could be useful in testing and production environments
+It will create a table an populate with 4 rows, the db configuration is in the flyway-config.properties file. This approach could be useful in testing and production environments
